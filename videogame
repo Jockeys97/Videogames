@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Videogame</title>
+  <style>
+    body {
+      background-color: #e3f2fd; /* azzurrino chiaro */
+      font-family: Arial, sans-serif;
+    }
+    h1, h2 {
+      color: #1565c0; /* azzurro più acceso per titoli */
+    }
+    ol, ul {
+      background: rgba(255,255,255,0.7); /* leggero effetto carta */
+      padding: 1em;
+      border-radius: 8px;
+      max-width: 400px;
+    }
+    li {
+      margin-bottom: 1em;
+    }
+    img {
+      border-radius: 8px;
+      margin-top: 4px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    }
+  </style>
+</head>
+<body>
+  <nav>
+  <a href="#giochi">Giochi più venduti</a>
+</nav>
+  <h1>Videogame</h1>
+  <p>Classifica dei 10 videogiochi più venduti in Italia nel 2024:</p>
+  <ol>
+    <li>
+       <a href="https://www.ea.com/it-it/games/ea-sports-fc/fc-25" target="_blank">EA Sports FC 25</a><br>
+      <img src="https://i.ytimg.com/vi_webp/TXSFuUXPtP4/maxresdefault.webp" alt="EA Sports FC 25" width="120">
+      <details> <summary>clicca per i dettagli</summary>
+    Il nuovo simulatore di calcio di EA Sports con licenze aggiornate e modalità carriera migliorata.
+  </details>
+    </li>
+    <li>
+      EA Sports FC 24<br>
+      <img src="https://cdn.media.amplience.net/i/frasersdev/41861590_o?fmt=auto&upscale=false&w=767&h=767&sm=scaleFit&$h-ttl$" alt="EA Sports FC 24" width="120">
+    </li>
+    <li>
+      Grand Theft Auto V<br>
+      <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/271590/header.jpg" alt="Grand Theft Auto V" width="120">
+    </li>
+    <li>
+      Hogwarts Legacy<br>
+      <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/990080/header.jpg" alt="Hogwarts Legacy" width="120">
+    </li>
+    <li>
+      <a href="https://it.bandainamcoent.eu/dragon-ball/dragon-ball-sparking-zero" target="_blank">Sparking Zero</a><br>
+      Dragon Ball: Sparking! Zero<br>
+      <img src="https://static.wikia.nocookie.net/dragonball/images/6/64/Sparking%21_Zero_Cover_Art.jpeg/revision/latest?cb=20240608002218" width="120">
+      <details>Il Sequel spirituale della serie Tenkaichi</details>
+    </li>
+    <li>
+      Call of Duty: Black Ops 6<br>
+      <img src="https://sm.ign.com/t/ign_it/news/a/activision/activision-working-on-custom-call-of-duty-download-options-a_kcvu.1280.jpg" alt="Call of Duty: Black Ops 6" width="120">
+    </li>
+    <li>
+      Red Dead Redemption 2<br>
+      <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/header.jpg" alt="Red Dead Redemption 2" width="120">
+    </li>
+    <li>
+      F1 24<br>
+      <img src="https://media.contentapi.ea.com/content/dam/ea/f1/f1-24/common/f124-og-image.jpg" alt="F1 24" width="120">
+    </li>
+    <li>
+      Mario Kart 8 Deluxe<br>
+      <img src="https://m.media-amazon.com/images/I/81dkA8Rz1PL._AC_SY445_.jpg" alt="Mario Kart 8 Deluxe" width="120">
+    </li>
+    <li>
+      The Crew 2<br>
+      <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/646910/header.jpg" alt="The Crew 2" width="120">
+    </li>
+  </ol>
+  <h2>Console più vendute (lista non ordinata):</h2>
+   <nav>
+  <a href="#console">Console più vendute</a>
+</nav>
+  <ul>
+    <li>PlayStation 5</li>
+    <li>Nintendo Switch</li>
+    <li>Xbox Series X/S</li>
+    <li>PlayStation 4</li>
+    <li>Nintendo Switch Lite</li>
+  </ul>
+  <form method="GET">
+  First Name: <input type="text" name="First Name"><br>
+  Last Name: <input type="text" name="Last NAme"><br>
+  Email: <input type="email" name="Email"><br>
+  Birthday: <input type="date" name="Birthday"><br>
+  Password; <input type="password" name="password" min="5"><br>
+  Gender: <br>
+  <input type="radio" name="Gender"value="Male">Male<br>
+  <input type="radio" name="Gender"value="Female">Female<br>
+  <input type="radio" name="Gender"value="Other">Other<br>
+  <input type="password" name="password" min="5"><br>
+</body>
+</html>
